@@ -5,9 +5,9 @@ import random
 
 def near_miss():
     iterate = 30
-    x = random.randint(0, 1000)
-    y = random.randint(0, 1000)
-    z = random.randint(0, 1000)
+    x = random.randint(0, 35)
+    y = random.randint(35, 70)
+    z = random.randint(71, 100)
 
     print("Simple program that produces near-misses of integer triplets that would satisfy a^n + b^n = c^n for some n "
           "> 2\n")
